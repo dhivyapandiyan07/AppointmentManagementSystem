@@ -6,11 +6,9 @@
 
 # 
 
-# \## Features
+# \# Features
 
-# 
-
-# \### Authentication \& Authorization
+# \# Authentication \& Authorization
 
 # 
 
@@ -26,7 +24,7 @@
 
 # 
 
-# \### Doctor Management
+# \# Doctor Management
 
 # 
 
@@ -42,7 +40,7 @@
 
 # 
 
-# \### Patient Management
+# \# Patient Management
 
 # 
 
@@ -56,7 +54,7 @@
 
 # 
 
-# \### Appointment Management
+# \# Appointment Management
 
 # 
 
@@ -70,9 +68,7 @@
 
 # \* View Appointment History
 
-# 
-
-# \### Admin Features
+# \# Admin Features
 
 # 
 
@@ -84,7 +80,7 @@
 
 # 
 
-# \## Technology Stack
+# \# Technology Stack
 
 # 
 
@@ -108,11 +104,11 @@
 
 # 
 
-# \## Project Structure
+# \# Project Structure
 
 # 
 
-# ```text
+# 
 
 # src
 
@@ -136,15 +132,15 @@
 
 # └── test
 
-# ```
+# 
 
 # 
 
-# \## Database Tables
+# \# Database Tables
 
 # 
 
-# \### User
+# \# User
 
 # 
 
@@ -162,7 +158,7 @@
 
 # 
 
-# \### Doctor
+# \# Doctor
 
 # 
 
@@ -176,9 +172,7 @@
 
 # | specialization | VARCHAR |
 
-# 
-
-# \### Patient
+# \# Patient
 
 # 
 
@@ -194,7 +188,7 @@
 
 # 
 
-# \### Appointment
+# \# Appointment
 
 # 
 
@@ -214,11 +208,11 @@
 
 # 
 
-# \## API Endpoints
+# \# API Endpoints
 
 # 
 
-# \### Doctor APIs
+# \# Doctor APIs
 
 # 
 
@@ -236,7 +230,7 @@
 
 # 
 
-# \### Patient APIs
+# \# Patient APIs
 
 # 
 
@@ -254,7 +248,7 @@
 
 # 
 
-# \### Appointment APIs
+# \# Appointment APIs
 
 # 
 
@@ -272,11 +266,11 @@
 
 # 
 
-# \## Setup Instructions
+# \# Setup Instructions
 
 # 
 
-# \### Clone Repository
+# \# Clone Repository
 
 # 
 
@@ -288,7 +282,7 @@
 
 # 
 
-# \### Create Database
+# \# Create Database
 
 # 
 
@@ -300,7 +294,7 @@
 
 # 
 
-# \### Configure MySQL
+# \# Configure MySQL
 
 # 
 
@@ -316,7 +310,7 @@
 
 # 
 
-# \### Build Project
+# \# Build Project
 
 # 
 
@@ -328,7 +322,7 @@
 
 # 
 
-# \### Run Project
+# \# Run Project
 
 # 
 
@@ -340,19 +334,19 @@
 
 # 
 
-# \### Access Application
+# \# Access Application
 
 # 
 
-# ```text
+# 
 
 # http://localhost:8080
 
-# ```
+# 
 
 # 
 
-# \## Future Enhancements
+# \# Future Enhancements
 
 # 
 
@@ -371,24 +365,6 @@
 # \* Analytics Dashboard
 
 # 
-
-# \## Author
-
-# 
-
-# Dhivya Pandiyan
-
-# 
-
-# B.Tech Artificial Intelligence and Data Science
-
-# 
-
-# Sri Eshwar College of Engineering
-
-# 
-
-# GitHub: https://github.com/dhivyapandiyan07
 
 
 
