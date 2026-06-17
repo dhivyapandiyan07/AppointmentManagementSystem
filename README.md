@@ -1,54 +1,54 @@
-# \# Appointment Management System
+ \# Appointment Management System
 
-# 
 
-# A Spring Boot backend application for managing doctors, patients, and appointments.
 
-# 
+ A Spring Boot backend application for managing doctors, patients, and appointments.
 
-# \## Tech Stack
 
-# 
 
-# \* Java 17+
+ \## Tech Stack
 
-# \* Spring Boot 3.x
+ 
 
-# \* Spring Data JPA
+ \* Java 17+
 
-# \* Hibernate
+ \* Spring Boot 3.x
 
-# \* MySQL
+ \* Spring Data JPA
 
-# \* Spring Security
+ \* Hibernate
 
-# \* Maven
+ \* MySQL
 
-# 
+ \* Spring Security
 
-# \## Features
+ \* Maven
 
-# 
+ 
 
-# \* Doctor Management
+ \## Features
 
-# \* Patient Management
+ 
 
-# \* Appointment Scheduling
+ \* Doctor Management
 
-# \* CRUD Operations
+ \* Patient Management
 
-# \* MySQL Database Integration
+ \* Appointment Scheduling
 
-# \* REST APIs
+ \* CRUD Operations
 
-# 
+ \* MySQL Database Integration
 
-# \## Project Structure
+ \* REST APIs
 
-# 
+ 
 
-# ```text
+ \## Project Structure
+
+ 
+
+ ```text
 
 # src
 
@@ -66,7 +66,7 @@
 
 # 
 
-# \## Database
+ \## Database
 
 # 
 
@@ -110,11 +110,11 @@
 
 # 
 
-# \## Run
+ \## Run
 
-# 
 
-# ```bash
+
+ ```bash
 
 # mvn spring-boot:run
 
