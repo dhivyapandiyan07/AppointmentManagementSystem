@@ -2,85 +2,11 @@
 
 # 
 
-# A Spring Boot based backend application for managing Doctors, Patients, and Appointments. The system provides REST APIs for appointment scheduling and management using Spring Boot, Spring Data JPA, Hibernate, and MySQL.
+# A Spring Boot backend application for managing doctors, patients, and appointments.
 
 # 
 
-# \# Features
-
-# \# Authentication \& Authorization
-
-# 
-
-# \* User Registration
-
-# \* User Login
-
-# \* Password Encryption using BCrypt
-
-# \* Role Based Access Control (ADMIN, DOCTOR, PATIENT)
-
-# \* JWT Authentication (Future Enhancement)
-
-# 
-
-# \# Doctor Management
-
-# 
-
-# \* Add Doctor
-
-# \* Update Doctor
-
-# \* Delete Doctor
-
-# \* View Doctor
-
-# \* Search Doctor by Specialization
-
-# 
-
-# \# Patient Management
-
-# 
-
-# \* Add Patient
-
-# \* Update Patient
-
-# \* Delete Patient
-
-# \* View Patient
-
-# 
-
-# \# Appointment Management
-
-# 
-
-# \* Book Appointment
-
-# \* Update Appointment
-
-# \* Cancel Appointment
-
-# \* Reschedule Appointment
-
-# \* View Appointment History
-
-# \# Admin Features
-
-# 
-
-# \* View All Doctors
-
-# \* View All Patients
-
-# \* View All Appointments
-
-# 
-
-# \# Technology Stack
+# \## Tech Stack
 
 # 
 
@@ -92,197 +18,55 @@
 
 # \* Hibernate
 
-# \* Spring Security
-
 # \* MySQL
+
+# \* Spring Security
 
 # \* Maven
 
-# \* Lombok
+# 
 
-# \* Git \& GitHub
+# \## Features
 
 # 
 
-# \# Project Structure
+# \* Doctor Management
+
+# \* Patient Management
+
+# \* Appointment Scheduling
+
+# \* CRUD Operations
+
+# \* MySQL Database Integration
+
+# \* REST APIs
 
 # 
 
+# \## Project Structure
+
 # 
+
+# ```text
 
 # src
 
-# ├── main
+# ├── controller
 
-# │   ├── java
+# ├── entity
 
-# │   │   └── com.appointment
+# ├── repository
 
-# │   │       ├── controller
-
-# │   │       ├── entity
-
-# │   │       ├── repository
-
-# │   │       └── AppointmentApplication.java
-
-# │   └── resources
-
-# │       └── application.properties
+# ├── resources
 
 # └── test
 
-# 
-
-# 
-
-# \# Database Tables
-
-# 
-
-# \# User
-
-# 
-
-# | Column   | Type    |
-
-# | -------- | ------- |
-
-# | id       | BIGINT  |
-
-# | username | VARCHAR |
-
-# | password | VARCHAR |
-
-# | role     | VARCHAR |
-
-# 
-
-# \# Doctor
-
-# 
-
-# | Column         | Type    |
-
-# | -------------- | ------- |
-
-# | id             | BIGINT  |
-
-# | name           | VARCHAR |
-
-# | specialization | VARCHAR |
-
-# \# Patient
-
-# 
-
-# | Column | Type    |
-
-# | ------ | ------- |
-
-# | id     | BIGINT  |
-
-# | name   | VARCHAR |
-
-# | email  | VARCHAR |
-
-# 
-
-# \# Appointment
-
-# 
-
-# | Column           | Type     |
-
-# | ---------------- | -------- |
-
-# | id               | BIGINT   |
-
-# | doctor\_id        | BIGINT   |
-
-# | patient\_id       | BIGINT   |
-
-# | appointment\_time | DATETIME |
-
-# | status           | VARCHAR  |
-
-# 
-
-# \# API Endpoints
-
-# 
-
-# \# Doctor APIs
-
-# 
-
-# ```http
-
-# GET    /api/doctors
-
-# POST   /api/doctors
-
-# PUT    /api/doctors/{id}
-
-# DELETE /api/doctors/{id}
-
 # ```
 
 # 
 
-# \# Patient APIs
-
-# 
-
-# ```http
-
-# GET    /api/patients
-
-# POST   /api/patients
-
-# PUT    /api/patients/{id}
-
-# DELETE /api/patients/{id}
-
-# ```
-
-# 
-
-# \# Appointment APIs
-
-# 
-
-# ```http
-
-# GET    /api/appointments
-
-# POST   /api/appointments
-
-# PUT    /api/appointments/{id}
-
-# DELETE /api/appointments/{id}
-
-# ```
-
-# 
-
-# \# Setup Instructions
-
-# 
-
-# \# Clone Repository
-
-# 
-
-# ```bash
-
-# git clone https://github.com/dhivyapandiyan07/AppointmentManagementSystem.git
-
-# ```
-
-# 
-
-# \# Create Database
+# \## Database
 
 # 
 
@@ -294,7 +78,11 @@
 
 # 
 
-# \# Configure MySQL
+# \## Configuration
+
+# 
+
+# Update `application.properties`:
 
 # 
 
@@ -310,7 +98,7 @@
 
 # 
 
-# \# Build Project
+# \## Build
 
 # 
 
@@ -322,7 +110,7 @@
 
 # 
 
-# \# Run Project
+# \## Run
 
 # 
 
@@ -334,37 +122,19 @@
 
 # 
 
-# \# Access Application
+# \## Author
 
 # 
 
-# 
-
-# http://localhost:8080
+# Dhivya Pandiyan
 
 # 
 
-# 
-
-# \# Future Enhancements
+# B.Tech AI \& DS
 
 # 
 
-# \* JWT Authentication
-
-# \* Swagger Documentation
-
-# \* Email Notifications
-
-# \* Docker Deployment
-
-# \* Unit Testing
-
-# \* Pagination \& Sorting
-
-# \* Analytics Dashboard
-
-# 
+# Sri Eshwar College of Engineering
 
 
 
