@@ -1,4 +1,4 @@
- \# Appointment Management System
+ # Appointment Management System
 
 
 
@@ -6,135 +6,88 @@
 
 
 
- \## Tech Stack
+ # Tech Stack
 
  
 
- \* Java 17+
+ * Java 17+
 
- \* Spring Boot 3.x
+ * Spring Boot 3.x
 
- \* Spring Data JPA
+ * Spring Data JPA
 
- \* Hibernate
+ * Hibernate
 
- \* MySQL
+ * MySQL
 
- \* Spring Security
+ * Spring Security
 
- \* Maven
-
- 
-
- \## Features
+ * Maven
 
  
 
- \* Doctor Management
-
- \* Patient Management
-
- \* Appointment Scheduling
-
- \* CRUD Operations
-
- \* MySQL Database Integration
-
- \* REST APIs
+ # Features
 
  
 
- \## Project Structure
+ * Doctor Management
+
+ * Patient Management
+
+ * Appointment Scheduling
+
+ * CRUD Operations
+
+ * MySQL Database Integration
+
+ * REST APIs
 
  
 
- ```text
+ # Project Structure
+
+ 
+
+
 
 # src
 
-# ├── controller
+ ├── controller
+ ├── entity
+ ├── repository
+ ├── resources
+ └── test
 
-# ├── entity
 
-# ├── repository
 
-# ├── resources
 
-# └── test
 
-# ```
-
-# 
-
- \## Database
-
-# 
-
-# ```sql
-
-# CREATE DATABASE appointmentdb;
-
-# ```
-
-# 
-
-# \## Configuration
-
-# 
-
+ # Database
+ CREATE DATABASE appointmentdb;
+# Configuration
 # Update `application.properties`:
 
-# 
+```properties
 
-# ```properties
+ spring.datasource.url=jdbc:mysql://localhost:3306/appointmentdb
+ spring.datasource.username=root
+ spring.datasource.password=YOUR\_PASSWORD
 
-# spring.datasource.url=jdbc:mysql://localhost:3306/appointmentdb
+ ```
 
-# spring.datasource.username=root
+ 
 
-# spring.datasource.password=YOUR\_PASSWORD
+# Build
+```bash
+ mvn clean install
+ ```
 
-# ```
-
-# 
-
-# \## Build
-
-# 
-
-# ```bash
-
-# mvn clean install
-
-# ```
-
-# 
-
- \## Run
-
-
-
+ # Run
  ```bash
+mvn spring-boot:run
+ ```
 
-# mvn spring-boot:run
 
-# ```
-
-# 
-
-# \## Author
-
-# 
-
-# Dhivya Pandiyan
-
-# 
-
-# B.Tech AI \& DS
-
-# 
-
-# Sri Eshwar College of Engineering
 
 
 
